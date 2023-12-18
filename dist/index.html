@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <script type="module" crossorigin src="./assets/index-pZBuJrTb.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-8nUiIvlb.css">
+</head>
+<body>
+
+    <div class="container py-4 px-3 mx-auto">
+        <h1>SWAPI</h1>
+        <div class="mb-3 input-group input-group-lg">
+            <span class="input-group-text" id="basic-addon3">https://swapi.dev/api/</span>
+            <input type="text" name="value" required class="form-control js--input" placeholder="people/1/">
+            <button class="btn btn-secondary">Get info</button>
+        </div>
+        <div class="result-swapi p-2 bg-light-subtle border rounded-2 border-light-subtle">
+            <h2>Result:</h2>
+            <div class="spinner-border js--spinner" role="status">
+                <span class="sr-only"></span>
+            </div>
+            <div class = "item-swapi d-flex gap-3">
+                <p class="controller-item border rounded-2"></p>
+                <p class="id-item border rounded-2"></p>
+            </div>
+            <pre></pre>
+        </div>
+
+    </div>
+</body>
+</html>

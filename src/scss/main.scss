@@ -1,0 +1,14 @@
+@import "bootstrap/scss/bootstrap";
+@import 'variable';
+
+body {
+  background-color: $color;
+}
+
+.item-swapi p {
+  background-color: $color;
+}
+
+.spinner-border {
+  display: none;
+}
